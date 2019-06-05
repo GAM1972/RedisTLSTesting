@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "RedisCacheTLSTEsting";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<br /><br />
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Command</th>
+        <th>Result</th>
+        <th>Result</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>Status TLS testing</td>
+        <td><pre>TLS 1.0: @ViewBag.ssltesttls1</pre></td>
+        <td><pre>TLS 1.1: @ViewBag.ssltesttls11</pre></td>
+        <td><pre>TLS 1.2: @ViewBag.ssltesttls12</pre></td>
+    </tr>
+    <tr>
+        <td>SSL protocol used</td>
+        <td><pre>@ViewBag.ssltesttls1protocol</pre></td>
+        <td><pre>@ViewBag.ssltesttls11protocol</pre></td>
+        <td><pre>@ViewBag.ssltesttls12protocol</pre></td>
+    </tr>
+    <tr>
+        <td>Cipher Algorithm</td>
+        <td><pre>@ViewBag.ssltesttls1CipherAl</pre></td>
+        <td><pre>@ViewBag.ssltesttls11CipherAl</pre></td>
+        <td><pre>@ViewBag.ssltesttls12CipherAl</pre></td>
+    </tr>
+    <tr>
+        <td>Cipher Strength</td>
+        <td><pre>@ViewBag.ssltesttls1CipherSt</pre></td>
+        <td><pre>@ViewBag.ssltesttls11CipherSt</pre></td>
+        <td><pre>@ViewBag.ssltesttls12CipherSt</pre></td>
+
+    </tr>
+    <tr>
+        <td>Hash Algorithm</td>
+        <td><pre>@ViewBag.ssltesttls1HashAlg</pre></td>
+        <td><pre>@ViewBag.ssltesttls11HashAlg</pre></td>
+        <td><pre>@ViewBag.ssltesttls12HashAlg</pre></td>
+
+    </tr>
+    <tr>
+        <td>Hash Strength</td>
+        <td><pre>@ViewBag.ssltesttls1HashStr</pre></td>
+        <td><pre>@ViewBag.ssltesttls11HashStr</pre></td>
+        <td><pre>@ViewBag.ssltesttls12HashStr</pre></td>
+    </tr>
+    <tr>
+        <td>Key Exchange Algorithm</td>
+        <td><pre>@ViewBag.ssltesttls1KeyExAl</pre></td>
+        <td><pre>@ViewBag.ssltesttls11KeyExAl</pre></td>
+        <td><pre>@ViewBag.ssltesttls12KeyExAl</pre></td>
+
+    </tr>
+    <tr>
+        <td>Key Exchange Strength</td>
+        <td><pre>@ViewBag.ssltesttls1KeyExSt</pre></td>
+        <td><pre>@ViewBag.ssltesttls11KeyExSt</pre></td>
+        <td><pre>@ViewBag.ssltesttls12KeyExSt</pre></td>
+
+    </tr>
+
+</table>
