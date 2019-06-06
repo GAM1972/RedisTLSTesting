@@ -1,6 +1,6 @@
 Add the following values in Application Settings of the web app.
 
-Add three separate connection strings to explicitly test TLS at each version.
+Add three separate connection strings to explicitly test TLS at each version. Make sure to set the sslProtocols setting in each connection string. Ex: sslProtocols=tls1
 
 CacheConnectiontls1  -> set to Redis Cache Connection Settings from Redis Server<br>
 CacheConnectiontls11 -> set to Redis Cache Connection Settings from Redis Server<br>
